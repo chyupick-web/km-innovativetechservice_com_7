@@ -1,0 +1,20 @@
+.text-active {
+    color: $orange;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-dark {
+    color: $dark;
+}
+
+$size: 10;
+$max-size: 120;
+@while $size < $max-size {
+    .fs-#{$size} {
+        font-size: #{$size}px;
+    }
+    $size: $size+2;
+}

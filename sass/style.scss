@@ -1,0 +1,30 @@
+@import '_variables';
+@import '_header';
+@import '_utils';
+@import '_grid';
+@import '_typography';
+body {
+    margin: 0;
+    background-color: $dark;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: auto;
+}
