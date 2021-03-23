@@ -666,43 +666,6 @@ header {
   font-size: 120px;
 }
 
-body {
-  margin: 0;
-  background-color: #292e44;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 400;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-b {
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-}
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 15px;
-  margin: auto;
-}
-
-#hero {
-  height: calc(100vh - 105px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-#hero .hero-title {
-  line-height: 1;
-}
-
 .m-auto {
   margin: auto;
 }
@@ -4413,6 +4376,63 @@ b {
 
 .pb-120 {
   padding-bottom: 120px;
+}
+
+body {
+  margin: 0;
+  background-color: #292e44;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+#hero {
+  height: calc(100vh - 105px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+#hero .hero-title {
+  line-height: 1;
+}
+
+#about .btn-group {
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+#about .btn {
+  width: 100%;
+  background-color: #2a2c47;
+  color: #cacbd2;
+  height: 47px;
+  border-radius: 0;
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
+  outline: 0;
+}
+#about .btn:hover, #about .btn:focus, #about .btn.active {
+  background-color: #ffc576;
+  color: #292e44;
+}
+#about #tab-wrapper {
+  background-color: #404564;
 }
 
 /*# sourceMappingURL=style.css.map */
