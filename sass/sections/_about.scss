@@ -22,5 +22,11 @@
     }
     #tab-wrapper {
         background-color: $dark-50;
+        .inner-tab {
+            display: none;
+            &.active {
+                display: block;
+            }
+        }
     }
 }
