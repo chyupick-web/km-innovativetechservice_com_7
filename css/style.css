@@ -662,6 +662,10 @@ header {
   font-size: 118px;
 }
 
+.fs-120 {
+  font-size: 120px;
+}
+
 footer {
   padding: 60px 0;
   background: #313552;
@@ -699,9 +703,6 @@ footer .footer-links ul li a {
 }
 footer .footer-links ul li a.active, footer .footer-links ul li a:hover {
   color: #ffc576;
-=======
-.fs-120 {
-  font-size: 120px;
 }
 
 .m-auto {
@@ -4414,7 +4415,6 @@ footer .footer-links ul li a.active, footer .footer-links ul li a:hover {
 
 .pb-120 {
   padding-bottom: 120px;
-
 }
 
 body {
