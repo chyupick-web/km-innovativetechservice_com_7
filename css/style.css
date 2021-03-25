@@ -70,7 +70,7 @@ header {
 .btn-active, .btn-outline-active:hover {
   background-color: #ffc576;
   border-color: #ffc576;
-  color: #fff;
+  color: #292e44;
 }
 
 .btn-outline-active {
@@ -4454,10 +4454,13 @@ b {
   line-height: 1;
 }
 
+#about p {
+  line-height: 1.6;
+}
 #about .btn-group {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
-#about .btn {
+#about .btn-group .btn {
   width: 100%;
   background-color: #2a2c47;
   color: #cacbd2;
@@ -4466,7 +4469,7 @@ b {
   border-right: 1px solid rgba(255, 255, 255, 0.05);
   outline: 0;
 }
-#about .btn:hover, #about .btn:focus, #about .btn.active {
+#about .btn-group .btn:hover, #about .btn-group .btn:focus, #about .btn-group .btn.active {
   background-color: #ffc576;
   color: #292e44;
 }
