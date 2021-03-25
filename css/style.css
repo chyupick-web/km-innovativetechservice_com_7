@@ -662,6 +662,44 @@ header {
   font-size: 118px;
 }
 
+footer {
+  padding: 60px 0;
+  background: #313552;
+}
+footer h3 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+}
+footer .container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .container img {
+  height: 38px;
+}
+footer .footer-links ul {
+  padding: 20px 0;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+footer .footer-links ul li {
+  padding: 0 10px;
+}
+footer .footer-links ul li a {
+  font-size: 13px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+footer .footer-links ul li a.active, footer .footer-links ul li a:hover {
+  color: #ffc576;
+=======
 .fs-120 {
   font-size: 120px;
 }
@@ -4376,6 +4414,7 @@ header {
 
 .pb-120 {
   padding-bottom: 120px;
+
 }
 
 body {
