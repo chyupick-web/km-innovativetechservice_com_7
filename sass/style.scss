@@ -33,5 +33,88 @@ b {
     margin: auto;
 }
 
+
+
+
+.about-page{
+    width: 100%;
+
+    &__menu{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+
+        &-item{
+            color: #cacbd2;
+            padding: 10px;
+            border: 1px solid rgba(255,255,255,.05);
+            background-color: #2a2c47;
+            font-size: 14px;
+            width: 126px;
+            text-align: center;
+            cursor: pointer;
+            height: 27px;
+            line-height: 28px;
+            transition: $speed;
+            font-weight: 500;
+            font-family: hk grotesk,Sans-serif;
+
+            &:hover{
+                background-color: #FFC576;
+                color: black;
+                // transition: $speed;
+            }
+            
+            &.active{
+                background-color: #FFC576;
+                color: black;
+            }
+
+        }
+
+    }
+
+    &__section{
+        div{
+            display: none;
+        }
+        div.active{
+            display: block;
+        }
+    }
+
+}
+
+
+@media (max-width: 767px){
+    .about-page{
+
+        width: 100%;
+        margin: 0 auto;
+        &__menu{
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(48%,50%));
+            width: 100%;
+            &-item{
+                width: 90%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @import './sections/_hero';
 @import './sections/_about';
+
